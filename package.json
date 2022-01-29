@@ -2,9 +2,7 @@
   "name": "currency_covrt",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-    "build": "node index.js"
-  },
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iamashay/int_project.git"
@@ -14,8 +12,5 @@
   "bugs": {
     "url": "https://github.com/iamashay/int_project/issues"
   },
-  "homepage": "https://github.com/iamashay/int_project#readme",
-  "dependencies": {
-    "express": "^4.17.2"
-  }
+  "homepage": "https://github.com/iamashay/int_project#readme"
 }
