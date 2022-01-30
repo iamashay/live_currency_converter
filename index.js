@@ -1,17 +1,16 @@
-const express = require('express')
-const app = express()
-const port = process.env.PORT || 3000
-const path = require('path')
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+const path = require('path');
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`Example app listening at http://localhost:${port}`);
 })
 
 app.get('/', (req, res) => {
   var options = {
       root: path.join(__dirname, "/webfiles/")
   };
-  console.log(options)
-  res.sendFile('index.html', options)
+  res.sendFile('index.html', options);
 })
 
