@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color:  #eee;
+    margin-bottom: 50px;
+    padding: 10px;
+    min-height: 40px;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    margin-right: 10px;
+}
+
+#logo {
+    font-size: 25px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
