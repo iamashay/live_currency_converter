@@ -7,6 +7,6 @@ app.listen(port, () => {
 })
 
 app.get('/', (req, res) => {
-  res.sendFile('Hello World! '+port)
+  res.sendFile(workDir+'index.html')
 })
 
