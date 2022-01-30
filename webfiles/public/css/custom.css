@@ -1,5 +1,9 @@
 body {
     margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
 header {
     display: flex;
@@ -23,6 +27,52 @@ header ul {
 }
 
 main {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cars {
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.equalto  {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+#container>div {
+    display: flex;
+    height: 10vh;
+}
+
+#initial, #final {
+    padding-left: 10px;
+    font-size: 30px;
+    width: 200px;
+}
+
+footer {
+    bottom: 0;
+    margin-top: auto;
     display: flex;
     justify-content: center;
 }
