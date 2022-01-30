@@ -1,7 +1,8 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3000;
 const path = require('path');
+
+const port = process.env.PORT || 3000;
 const hostname = process.env.WEBSITE_HOSTNAME || 'http://localhost/';
 
 
