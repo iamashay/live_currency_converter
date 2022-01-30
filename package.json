@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/iamashay/int_project/issues"
   },
-  "homepage": "https://github.com/iamashay/int_project#readme"
+  "homepage": "https://github.com/iamashay/int_project#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
