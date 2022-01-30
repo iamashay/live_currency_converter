@@ -4,9 +4,8 @@ const port = process.env.PORT || 3000;
 const path = require('path');
 const hostname = process.env.WEBSITE_HOSTNAME || 'http://localhost/';
 
-app.listen(port, () => {
-  console.log(`Example app listening at ${hostname}:${port}`);
-})
+
+app.use(express.static(__dirname + '/webfiles/public'));
 
 app.get('/', (req, res) => {
   var options = {
@@ -15,3 +14,7 @@ app.get('/', (req, res) => {
   res.sendFile('index.html', options);
 })
 
+
+app.listen(port, () => {
+  console.log(`Example app listening at ${hostname}:${port}`);
+})
