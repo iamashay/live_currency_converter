@@ -10,6 +10,7 @@ app.get('/', (req, res) => {
   var options = {
       root: path.join(__dirname, "/webfiles/")
   };
+  console.log(options)
   res.sendFile('index.html', options)
 })
 
