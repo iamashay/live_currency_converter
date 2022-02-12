@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 
 const port = process.env.PORT || 3000;
-const hostname = process.env.WEBSITE_HOSTNAME || 'http://localhost/';
+const hostname = process.env.WEBSITE_HOSTNAME || 'http://localhost';
 
 
 app.use(express.static(__dirname + '/webfiles/public'));
