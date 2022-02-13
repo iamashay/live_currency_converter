@@ -92,3 +92,8 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+#equalto {
+    min-height: 50px;
+    font-size: 30px;
+}
