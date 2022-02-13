@@ -1,4 +1,4 @@
-#Live Currency Converter
+# Live Currency Converter
 
   <p align="center">
 This is a sample project on integration of MailJet's SMS service in NodeJS to send SMS with their API. <br />
