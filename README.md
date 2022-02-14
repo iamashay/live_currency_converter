@@ -1,9 +1,7 @@
 # Live Currency Converter
 
   <p align="center">
-This is a sample project on integration of MailJet's SMS service in NodeJS to send SMS with their API. <br />
-
-
+A currency converter which uses live market rates obtained from FrankFurter API.
 
 
 <!-- ABOUT THE PROJECT -->
