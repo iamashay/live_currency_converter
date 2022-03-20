@@ -8,7 +8,7 @@ A currency converter which uses live market rates obtained from FrankFurter API.
 ## About The Project
 
 [![demo.png](https://i.postimg.cc/yNRfxvZq/Screenshot-from-2022-02-13-14-42-21.png)](https://postimg.cc/LqHk0kDv)
-This prject helps you know the rate of your local currency in terms of any other currency.
+This project helps you know the rate of your local currency in terms of any other currency.
 
 ### Built With
 
